@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "mcpName": "io.github.neoanthropocene/comfyui-mcp-multiagent",
   "description": "Antigravity + Claude Code plugin + MCP server for ComfyUI - 96 tools, 16 AI skills (Flux, WAN, LTX video, Qwen, Civitai), live graph editing from your Claude session. Generate images, video & audio, manage models and custom nodes.",
-  "homepage": "https://comfyui-mcp-multiagent.neoanthropocene.io/docs",
+  "homepage": "https://github.com/NeoAnthropocene/comfyui-mcp-multiagent",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
     "comfyui-mcp-multiagent": "dist/index.js"
   },
   "scripts": {
+    "prepare": "npm run build",
     "sync-agents": "node scripts/sync-agents.mjs",
     "build": "tsc && npm run sync-agents",
     "dev": "tsx src/index.ts",
