@@ -1,13 +1,13 @@
 {
-  "name": "comfyui-mcp",
-  "version": "0.16.0",
-  "mcpName": "io.github.artokun/comfyui-mcp",
-  "description": "Claude Code plugin + MCP server for ComfyUI - 96 tools, 16 AI skills (Flux, WAN, LTX video, Qwen, Civitai), live graph editing from your Claude session. Generate images, video & audio, manage models and custom nodes.",
-  "homepage": "https://comfyui-mcp.artokun.io/docs",
+  "name": "comfyui-mcp-multiagent",
+  "version": "1.0.0",
+  "mcpName": "io.github.neoanthropocene/comfyui-mcp-multiagent",
+  "description": "Antigravity + Claude Code plugin + MCP server for ComfyUI - 96 tools, 16 AI skills (Flux, WAN, LTX video, Qwen, Civitai), live graph editing from your Claude session. Generate images, video & audio, manage models and custom nodes.",
+  "homepage": "https://comfyui-mcp-multiagent.neoanthropocene.io/docs",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
-    "comfyui-mcp": "dist/index.js"
+    "comfyui-mcp-multiagent": "dist/index.js"
   },
   "scripts": {
     "sync-agents": "node scripts/sync-agents.mjs",
@@ -64,7 +64,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/artokun/comfyui-mcp.git"
+    "url": "https://github.com/neoanthropocene/comfyui-mcp.git"
   },
   "keywords": [
     "comfyui",
@@ -84,9 +84,10 @@
     "ltx-video",
     "ai-agent",
     "comfyui-extension",
-    "workflow-automation"
+    "workflow-automation",
+    "antigravity"
   ],
-  "author": "artokun",
+  "author": "Neoanthropocene",
   "license": "MIT",
   "engines": {
     "node": ">=22.0.0"

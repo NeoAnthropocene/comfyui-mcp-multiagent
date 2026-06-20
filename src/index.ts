@@ -15,8 +15,8 @@ import { startHttpServer } from "./transport/http.js";
 async function createConfiguredServer(): Promise<McpServer> {
   const server = new McpServer(
     {
-      name: "comfyui-mcp",
-      version: "0.1.0",
+      name: "comfyui-mcp-multiagent",
+      version: "1.0.0",
     },
     {
       // We declare `resources` and `prompts` (with noop list handlers below)

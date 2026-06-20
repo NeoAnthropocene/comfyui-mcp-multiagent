@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "description": "Claude Code plugin for ComfyUI — generate images, visualize workflows, manage models, and explore custom nodes",
   "author": {
-    "name": "artokun"
+    "name": "Neoanthropocene"
   },
-  "repository": "https://github.com/artokun/comfyui-mcp",
+  "repository": "https://github.com/neoanthropocene/comfyui-mcp-multiagent",
   "keywords": ["comfyui", "stable-diffusion", "image-generation", "mcp"]
 }

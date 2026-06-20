@@ -65,7 +65,7 @@ it upstream.** A pack is just three small files (`manifest.yaml`, `pack.yaml`,
 `workflow.json`), so contributing is easy and high-value:
 
 > "Want to share this pack? Open an issue or PR on
-> https://github.com/artokun/comfyui-mcp with these three files — it'll be
+> https://github.com/neoanthropocene/comfyui-mcp-multiagent with these three files — it'll be
 > reviewed for safety (model URLs, custom-node sources) and, once merged, CI
 > keeps its model links validated for everyone."
 

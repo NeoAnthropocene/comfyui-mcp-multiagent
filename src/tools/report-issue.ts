@@ -6,7 +6,7 @@ import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 // reviews and submits with one click. (A future opt-in could auto-file via gh
 // or a CF Worker; intentionally not the default.)
 
-const DEFAULT_REPO = "artokun/comfyui-mcp";
+const DEFAULT_REPO = "neoanthropocene/comfyui-mcp-multiagent";
 
 export function registerReportIssueTools(server: McpServer): void {
   server.tool(
